@@ -19,3 +19,13 @@
   <li><a href="https://jonhyuk0922.tistory.com/127">6-2주차 클래스(메소드 오버라이딩, suepr, pass , 스타크래프트 진행)</a></li>
 
 </ol>
+
+
+# Python-beyond the basics
+
+<a href="https://docs.python.org/ko/3/howto/index.html">파이썬 공식문서 내 HOWTO</a> 기반으로 공부
+
+<ol> 
+  <li> 1. Argparse 자습서  : 명령행 인자를 파싱할 때 사용하는 모듈</li>
+  
+</ol>
