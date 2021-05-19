@@ -25,4 +25,4 @@
 
 <a href="https://docs.python.org/ko/3/howto/index.html">파이썬 공식문서 내 HOWTO</a> 기반으로 공부
 
-  1. [Argparse 자습서: 명령행 인자를 파싱할 때 사용하는 모듈](../master/prog.py)
+  1. [Argparse 자습서: 명령행 인자를 파싱할 때 사용하는 모듈](./prog.py)
