@@ -27,3 +27,7 @@
 
   1. [Argparse 자습서: 명령행 인자를 파싱할 때 사용하는 모듈](./prog.py)
   2. [PEP8 스타일 가이드](./PEP8.md)
+
+#Python-mini-project
+  
+  1. [복권 추첨 번호 생성](./mini_lottery)
