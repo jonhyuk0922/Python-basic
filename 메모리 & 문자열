@@ -1,0 +1,35 @@
+### 1바이트 메모리 공간
+
+- 컴퓨터는 2진수로 데이터를 저장하는데, 한 자릿수는 1bit(0 or 1)로 저장된다.
+- 1Byte = 8bit = $2^8$ = 256 , 2진수로 하면 8자리까지 저장 가능
+- 문자열도 2진수로 인식, 2진수 ↔ 문자 변환 표준 규칙 정함(UTF-8)
+- int는 4바이트 , float은 8바이트까지 저장 가능
+
+### "Yesterday" 노래에 "Yesterday"라는 말이 몇번 나올까?
+
+- Data load
+
+```bash
+#wget install
+brew install wget
+
+wget https://raw.githubusercontent.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/master/code/6/yesterday.txt
+```
+
+- python code
+
+```python
+f = open("yesterday.txt , 'r')
+yesterday_lyric = ""
+while True:
+		line = f.readline()
+		if not line:
+				break
+		yesterday_lyric = yesterday_lyric + line.strip() + "\n"
+f.close()
+n_of_yesterday = yesterday_lyric.upper().count("YESTERDAY")
+print("Number of a Word 'Yesterday':" , n_of_yesterday)
+```
+
+- Terminal console , Vscode editer , jupyter 의 가상환경을 통일 시킨채 진행
+- 디렉토리 내 py파일 만든 후 모듈로 콘솔에서 불러서 실행해봄
